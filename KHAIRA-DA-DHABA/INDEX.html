@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KHAIRA DA DHABA | Near SMJN PG College, Haridwar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: #f8f4ec;
+            color: #222;
+        }
+        header {
+            background: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
+            height: 60vh;
+            color: #fff;
+            text-shadow: 2px 2px 8px #000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.4rem;
+            margin: 10px 0 20px 0;
+        }
+        nav {
+            background: #7b3f00;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .section-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2rem;
+            color: #7b3f00;
+            margin-bottom: 18px;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .menu-item {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            flex: 1 1 250px;
+            min-width: 250px;
+            max-width: 320px;
+            padding: 18px;
+            text-align: center;
+        }
+        .menu-item img {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .menu-item h3 {
+            margin: 15px 0 8px 0;
+            color: #7b3f00;
+        }
+        .about, .contact {
+            background: #fff;
+            border-radius: 10px;
+            padding: 28px 22px;
+            margin-bottom: 32px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .contact-info {
+            font-size: 1.1rem;
+            margin: 12px 0;
+        }
+        .contact-info span {
+            font-weight: bold;
+            color: #7b3f00;
+        }
+        .footer {
+            background: #7b3f00;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 1rem;
+            letter-spacing: 1px;
+        }
+        /* Responsive */
+        @media (max-width: 800px) {
+            .menu {
+                flex-direction: column;
+                align-items: center;
+            }
+            header h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KHAIRA DA DHABA</h1>
+        <p>Authentic Taste | Near SMJN PG College, Haridwar</p>
+        <a href="#menu" style="background:#ffd700;color:#7b3f00;padding:12px 28px;border-radius:24px;font-weight:bold;text-decoration:none;font-size:1.1rem;">See Menu</a>
+    </header>
+    <nav>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="menu">
+            <div class="section-title">Our Menu</div>
+            <div class="menu">
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="Paneer Butter Masala">
+                    <h3>Paneer Butter Masala</h3>
+                    <p>Creamy paneer cooked with aromatic spices and fresh cream.</p>
+                    <strong>₹180</strong>
+                </div>
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1516684669134-de6f27e8e9d0?auto=format&fit=crop&w=400&q=80" alt="Dal Tadka">
+                    <h3>Dal Tadka</h3>
+                    <p>Yellow lentils tempered with ghee, garlic, and Indian spices.</p>
+                    <strong>₹120</strong>
+                </div>
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80" alt="Butter Naan">
+                    <h3>Butter Naan</h3>
+                    <p>Soft and fluffy naan bread topped with melting butter.</p>
+                    <strong>₹40</strong>
+                </div>
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80" alt="Chole Bhature">
+                    <h3>Chole Bhature</h3>
+                    <p>Spicy chickpeas served with deep-fried bhature.</p>
+                    <strong>₹90</strong>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="section-title">About Us</div>
+            <p>
+                Welcome to <b>KHAIRA DA DHABA</b>, your go-to place for authentic North Indian flavors in Haridwar. Located near SMJN PG College, we serve fresh, hygienic, and delicious food with a homely touch. Whether you’re a student, traveler, or local, our dhaba offers a warm ambiance and quick service. Experience the taste of tradition with every bite!
+            </p>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="section-title">Contact Us</div>
+            <div class="contact-info">
+                <span>Address:</span> Near SMJN PG College, Haridwar, Uttarakhand
+            </div>
+            <div class="contact-info">
+                <span>Phone:</span> +91-9876543210
+            </div>
+            <div class="contact-info">
+                <span>Email:</span> khairadadhaba@gmail.com
+            </div>
+            <div class="contact-info">
+                <span>Opening Hours:</span> 8:00 AM – 11:00 PM (All Days)
+            </div>
+        </section>
+    </div>
+    <div class="footer">
+        &copy; 2025 KHAIRA DA DHABA | Made with ❤️ in Haridwar
+    </div>
+    <script>
+        // Simple scroll to section
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const href = this.getAttribute('href');
+                document.querySelector(href).scrollIntoView({behavior: "smooth"});
+            });
+        });
+    </script>
+</body>
+</html>
